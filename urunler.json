@@ -1,0 +1,183 @@
+[
+    {
+        "id": 1,
+        "isim": "Erkek1",
+        "beden": "M",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 70,
+        "stok": 5,
+        "cinsiyet": "erkek",
+        "resim": "./img/erkek-thsirt1.jpg"
+    },
+    {
+        "id": 2,
+        "isim": "Erkek2",
+        "beden": "S",
+        "aciklama": "30 derecede yıkayınız. Baskıları ütülemeyiniz. Benzer renkler ile yıkayınız. Elde veya makinada yıkayınız. Tersyüz ederek yıkayınız. Tersten ütüleyiniz. Orta ısıda ütü yapılabilir. Nemliyken şekil veriniz. Islak olarak muhafaza etmeyiniz.",
+        "fiyat": 90,
+        "stok": 3,
+        "cinsiyet": "erkek",
+        "resim": "./img/erkek-thsirt2.jpg"
+    },
+    {
+        "id": 3,
+        "isim": "Erkek3",
+        "beden": "M",
+        "aciklama": "Interview Bisiklet Yaka tişört dört mevsim kullanılabilir. Nefes alan ince yüzeyi ile terletmeden gün boyu konfor sağlar. İster tek başına, ister ceket içlerine giyilerek rahat ve şık bir kombin olmasını sağlar.",
+        "fiyat": 100,
+        "stok": 5,
+        "cinsiyet": "erkek",
+        "resim": "./img/erkek-thsirt3.webp"
+    },
+    {
+        "id": 4,
+        "isim": "Erkek4",
+        "beden": "L",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 150,
+        "stok": 5,
+        "cinsiyet": "erkek",
+        "resim": "./img/erkek-thsirt4.webp"
+    },
+    {
+        "id": 5,
+        "isim": "Erkek5",
+        "beden": "L",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 140,
+        "stok": 5,
+        "cinsiyet": "erkek",
+        "resim": "./img/erkek-thsirt5.jpg"
+    },
+    {
+        "id": 6,
+        "isim": "Erkek6",
+        "beden": "S",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 200,
+        "stok": 5,
+        "cinsiyet": "erkek",
+        "resim": "./img/erkek-thsirt6.jpg"
+    },
+    {
+        "id": 7,
+        "isim": "Kadin1",
+        "beden": "M",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 70,
+        "stok": 5,
+        "cinsiyet": "kadin",
+        "resim": "./img/kadin-thsirt1.jpg"
+    },
+    {
+        "id": 8,
+        "isim": "Kadin2",
+        "beden": "S",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 90,
+        "stok": 3,
+        "cinsiyet": "kadin",
+        "resim": "./img/kadin-thsirt2.jpg"
+    },
+    {
+        "id": 9,
+        "isim": "Kadin3",
+        "beden": "M",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 100,
+        "stok": 5,
+        "cinsiyet": "kadin",
+        "resim": "./img/kadin-thsirt3.jpg"
+    },
+    {
+        "id": 10,
+        "isim": "Kadin4",
+        "beden": "L",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 150,
+        "stok": 5,
+        "cinsiyet": "kadin",
+        "resim": "./img/kadin-thsirt4.jpg"
+    },
+    {
+        "id": 11,
+        "isim": "Kadin5",
+        "beden": "L",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 140,
+        "stok": 5,
+        "cinsiyet": "kadin",
+        "resim": "./img/kadin-thsirt5.jpg"
+    },
+    {
+        "id": 12,
+        "isim": "Kadin6",
+        "beden": "S",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 200,
+        "stok": 5,
+        "cinsiyet": "kadin",
+        "resim": "./img/kadin-thsirt6.jpg"
+    },
+    {
+        "id": 13,
+        "isim": "Unisex1",
+        "beden": "M",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 70,
+        "stok": 5,
+        "cinsiyet": "unisex",
+        "resim": "./img/unisex-thsirt1.jpg"
+    },
+    {
+        "id": 14,
+        "isim": "Unisex2",
+        "beden": "S",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 90,
+        "stok": 3,
+        "cinsiyet": "unisex",
+        "resim": "./img/unisex-thsirt2.jpg"
+    },
+    {
+        "id": 15,
+        "isim": "Unisex3",
+        "beden": "M",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 100,
+        "stok": 5,
+        "cinsiyet": "unisex",
+        "resim": "./img/unisex-thsirt3.jpg"
+    },
+    {
+        "id": 16,
+        "isim": "Unisex4",
+        "beden": "L",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 150,
+        "stok": 5,
+        "cinsiyet": "unisex",
+        "resim": "./img/unisex-thsirt4.jpg"
+    },
+    {
+        "id": 17,
+        "isim": "Unisex5",
+        "beden": "L",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 140,
+        "stok": 5,
+        "cinsiyet": "unisex",
+        "resim": "./img/unisex-thsirt5.jpg"
+    },
+    {
+        "id": 18,
+        "isim": "Unisex6",
+        "beden": "S",
+        "aciklama": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit rem voluptates doloremque itaque voluptate ea nobis temporibus inventore ratione fuga?",
+        "fiyat": 200,
+        "stok": 5,
+        "cinsiyet": "unisex",
+        "resim": "./img/unisex-thsirt6.jpg"
+    }
+    
+]

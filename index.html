@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link href="css/simple-sidebar.css" rel="stylesheet"> -->
+    <!-- <link href="toastr.css" rel="stylesheet"/> -->
+    <link rel="shourtcut icon" type="x-icon" href="img/th.png" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="anasayfa">
+        <div class="header">
+            <div class="headerA">
+                <div class="headerA-groupA">
+                    <label><i class="fas fa-phone-alt fa-sm"></i> +2 95 01 88 821</label>
+                    <label><i class="fas fa-envelope fa-sm"></i> info@domain.com</label>
+                </div>
+                <div class="headerA-groupB">
+                    <i class="fab fa-facebook-f fa-lg"></i>
+                    <i class="fab fa-twitter fa-lg"></i>
+                    <i class="fab fa-linkedin-in fa-lg"></i>
+                    <i class="fab fa-instagram fa-lg"></i>
+                    <i class="fab fa-google-plus-g fa-lg"></i>
+                </div>
+            </div>
+            <div class="headerB">
+                <div class="headerB-groupA">
+                    <label style="cursor: pointer;"><i class="fas fa-shopping-bag fa-lg" style="cursor: pointer;"></i>
+                        E-SHOPPER</label>
+                    <select class="form-select form-select-sm mb-2" style="width: 150px;"
+                        aria-label=".form-select-sm example">
+                        <option value="1">USA</option>
+                        <option value="2">TR</option>
+                        <option value="3">ENG</option>
+                    </select>
+                    <select class="form-select form-select-sm mb-1" style="width: 150px;"
+                        aria-label=".form-select-sm example">
+                        <option value="1">DOLAR</option>
+                        <option value="2">TL</option>
+                        <option value="3">POUND</option>
+                    </select>
+                </div>
+                <div class="headerB-groupB">
+                    <ul>
+                        <li style="cursor:pointer"><i class="fas fa-user fa-lg"></i> Account</li>
+                        <li style="cursor:pointer"><i class="fas fa-star fa-lg"></i> Wishlist</li>
+                        <li style="cursor:pointer"><i class="fas fa-crosshairs fa-lg"></i> Checkout</li>
+                        <li onclick="toggleModal()" style="cursor:pointer"><i class="fas fa-shopping-cart fa-lg"></i>
+                            Card</li>
+                        <li style="cursor:pointer"><i class="fas fa-lock fa-lg"></i> Login</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="headerC">
+                <div class="headerC-hr">
+                    <hr style="margin-left: 40px; margin-right: 40px;">
+                </div>
+                <div class="headerC-next">
+                    <div class="headerC-groupA">
+                        <div class="dropdown">
+                            <a href="./index.html"><button class="dropbtn" style="color: orange;">Home</button></a>
+
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Shoop <i class="fas fa-angle-down fa-sm"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Blog <i class="fas fa-angle-down fa-sm"></i></button>
+                            <div class="dropdown-content">
+                                <a href="#">Link 1</a>
+                                <a href="#">Link 2</a>
+                                <a href="#">Link 3</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <a href="./index.html"><button class="dropbtn">404</button></a>
+
+                        </div>
+                        <div class="dropdown">
+                            <a href="./index.html"><button class="dropbtn">Contact</button></a>
+
+                        </div>
+
+                    </div>
+                    <div class="headerC-groupB">
+                        <div class="container-search">
+                            <form>
+                                <input type="search" placeholder="Search...">
+                                <button type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- ------------------------------------------------------------------------------ -->
+        <div class="govde">
+            <div class="sidebar">
+                <!-- ------------------ -->
+                <div class="sidebarmenu">
+                    <ul class="filter">
+                        <li>Anasayfa</li>
+                        <li>Tüm Ürünler</li>
+                        <li>Erkek Thsirt</li>
+                        <li>Kadın Thsirt</li>
+                        <li>Unisex Thsirt</li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="govdeB">
+                <div class="slider">
+                    <div class="row thsirt_list">
+                        <!-- <div class="col-md-6 ">
+                            <div class="urunBirim ">
+                                <div>
+                                    <img class="img-fluid shadow" src="./img/erkek-thsirt1.jpg" height="250px"
+                                        width="150px" alt="">
+                                </div>
+                                <div style="width: 150px;">
+                                    <div>
+                                        <span class="urun_Adi">Ürün İsmi</span><br>
+                                        <span class="urun_Aciklama">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Possimus vitae dignissimos pariatur soluta exercitationem consequuntur alias
+                                            ad
+                                            suscipit itaque commodi.</span>
+                                        <div style="margin-top: 20px;">
+                                            <span>45 Ürün Fiyatı</span>
+                                        </div>
+                                        <button class="btn_ekle" style="margin-top: 20px;">Sepete Ekle</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="content" style="height: 800px;">
+
+
+            <div id="carouselExampleCaptions" class="carousel slide" style="margin: 80px">
+                <div class="carousel-indicators">
+                    <button style="background-color: red;"  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button style="background-color: black;"  type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="active"
+                        aria-label="Slide 2"></button>
+                    <button style="background-color: red;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button style="background-color: black;" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./img/carousel1.jpg" class="d-block w-25" alt="...">
+                        <div style="color: black;" class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel2.jpg" class="d-block w-25" alt="...">
+                        <div style="color: black;" class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel3.jpg" class="d-block w-25" alt="...">
+                        <div style="color: black;" class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/carousel4.jpg" class="d-block w-25" alt="...">
+                        <div style="color: black;" class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span style="background-color: black;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span style="background-color: black;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+        </div>
+
+        <footer class="footer" style="background-color: #f0f0e9">
+
+            <div class="footerA" style="display: flex;justify-content: space-around; margin-top: 20px;">
+
+                <img src="./img/reklamFooter1.png" height="120px" width="200px" alt="">
+                <img src="./img/reklamFooter2.jpg" height="120px" width="200px" alt="">
+                <img src="./img/reklamFooter3.jpg" height="120px" width="200px" alt="">
+                <img src="./img/reklamFooter4.jpg" height="120px" width="200px" alt="">
+                <img src="./img/reklamFooter5.jpg" height="120px" width="200px" alt="">
+                <img src="./img/reklamFooter6.jpg" height="120px" width="200px" alt="">
+
+            </div>
+
+            <hr style="margin: 40px auto; width: 1200px;">
+
+            <div class="footerB" style="display: flex;justify-content: space-around;">
+
+                <div>
+                    <h2>SERVICE</h2>
+                    <h6>Online Help</h6>
+                    <h6>Contact Us</h6>
+                    <h6>Order Status</h6>
+                    <h6>Change Location</h6>
+                    <h6>FAQ's</h6>
+                </div>
+                <div>
+                    <h2>QUOCK SHOP</h2>
+                    <h6>T-Shirt</h6>
+                    <h6>Mens</h6>
+                    <h6>Womens</h6>
+                    <h6>Gift Card</h6>
+                    <h6>Shoes</h6>
+                </div>
+                <div>
+                    <h2>POLICIES</h2>
+                    <h6>Terms of Use</h6>
+                    <h6>Privecy Policy</h6>
+                    <h6>Refund Policy</h6>
+                    <h6>Billing System</h6>
+                    <h6>Ticket System</h6>
+                </div>
+                <div>
+                    <h2>ABOUT SHOPPER</h2>
+                    <h6>Company Information</h6>
+                    <h6>Careers</h6>
+                    <h6>Store Location</h6>
+                    <h6>Affilate Program</h6>
+                    <h6>Copyright</h6>
+                </div>
+
+                <div>
+                    <h1>ABOUT SHOPPER</h1>
+                    <input type="text" placeholder="Your email address">
+                    <button style="background-color: orange;"><i class="fas fa-arrow-right"></i></button>
+                    <p style="margin-top: 10px;">Get the most recent updates from <br> our site and be updated your
+                        self...</p>
+                </div>
+
+            </div>
+
+            <div class="footerC">
+                <div>
+                    <p style="margin-left: 50px;">Copyright © 2013 E-SHOPPER Inc. All rights reserved</p>
+                </div>
+
+                <div>
+                    Design by <label
+                        style="color: orange;cursor: pointer;text-decoration: underline;margin-right: 40px;">Ozenali</label><button
+                        style="background-color: orange; height: 40px; width: 50px;margin-right: 10px;"><i
+                            class="fas fa-arrow-up"></i></button>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <div class="basket_model">
+        <div class="basket_items">
+            <i onclick="toggleModal()" class="fas fa-times"></i>
+            <h2 class="basket_title">Ürünler</h2>
+            <ul class="basket_list">
+                <li class="basket_item">
+                    Herhangi Bir Ürün Bulunamadı.
+                </li>
+            </ul>
+            <div class="basket_total">
+                <span class="fw-bold mb-3 fs-4 total_price"></span>
+                <button class="btn_odeme" onclick="odemeTiklandi()">Ödeme Yap</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+    <!-- <script src="toastr.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/8dd5f3c9b6.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>

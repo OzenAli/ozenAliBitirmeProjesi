@@ -1,0 +1,494 @@
+
+
+.anasayfa{
+    display: flex;
+    flex-direction: column;
+    background-color: #292929;
+    height: 300vh;
+    padding: 10px;
+}
+
+.header{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header label,i{
+  cursor: pointer;
+}
+
+.headerA{
+    height: 30px;
+    width: 100%;
+    background-color: #f0f0e9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerA-groupA{
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    padding-left: 30px;
+}
+
+.headerA-groupB{
+    display: flex;
+    margin: 5px;
+    gap: 40px;
+    padding-right: 30px;
+}
+
+.headerB{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerB-groupA{
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.headerB-groupB ul{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    gap: 40px;
+    padding-right: 30px;
+    justify-content: center;
+    list-style: none;
+    margin-top: 40px;
+}
+.headerC{
+    height: 150px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    gap: 20px;
+}
+
+.headerC-next{
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerC-groupA{
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.headerC-groupB{
+    display: flex;
+    margin: 5px;
+    gap: 20px;
+    padding: 20px;
+    padding-left: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.govde{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.sidebar{
+    height: 700px;
+    width: 20%;
+    background-color: white;
+}
+
+.govdeB{
+    width: 100%;
+}
+.slider{
+    height: 700px;
+    background-color: white;
+    overflow: scroll;
+}
+
+.content{
+  margin-top: 5px;
+    background-color: white;
+}
+
+.footer{
+  margin-top: 5px;
+    height: 700px;
+    width: 100%;
+    background-color: #292929;
+}
+
+.footer h6,p{
+  color: grey;
+  margin: 20px;
+}
+
+.footer h6:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footerC{
+  height: 40px;
+    width: 100%;
+    background-color: #d6d6d0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: white;
+    /* color: white; */
+    /* padding: 16px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .filter li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #1183d6;
+    font-size: larger;
+  }
+
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    color: rgb(35, 35, 202);
+    text-decoration: underline;
+    font-size: large;
+  }
+
+  .container-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+  }
+  
+  form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    border: 1px solid currentColor;
+    border-radius: 5px;
+    margin: 0 0 30px;
+  }
+  
+  input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+  }
+  
+  input[type="search"]::placeholder {
+    color: #bbb;
+  }
+  
+  button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 40px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  
+  button[type="submit"]:hover {
+    opacity: 1;
+  }
+  
+  button[type="submit"]:focus,
+  input[type="search"]:focus {
+    box-shadow: 0 0 3px 0 #1183d6;
+    border-color: #1183d6;
+    outline: none;
+  }
+  
+  form.nosubmit {
+   border: none;
+   padding: 0;
+  }
+  
+  input.nosubmit {
+    border: 1px solid #555;
+    width: 100%;
+    padding: 9px 4px 9px 40px;
+     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+
+  .sidebarmenu{
+    margin: 5px;
+    height: 590px;
+    /* border:1px solid black; */
+  }
+  
+  .sidebarmenu ul {
+		list-style-type: none;	
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 590px;
+    align-items: center;
+	}
+
+  .urunBirim{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .urun_Adi{
+    font-weight: bold;
+  }
+
+  .urun_Aciklama{
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+  }
+
+  .btn_ekle{
+    cursor: pointer;
+    border: 2px solid black;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: transparent;
+    transition: all 250ms ease-in-out;
+  }
+
+  .btn_ekle:hover{
+    background-color: red;
+    color: white;
+  }
+
+.basket_model{
+  position: fixed;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  background-color: #5c6a7960;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 250ms ease-in-out;
+}
+
+.basket_model.active{
+  opacity: 1;
+  z-index: 999;
+}
+
+.basket_items{
+  position: relative;
+  width: 0;
+  background-color: white;
+  height: 100%;
+  float: right;
+  transition: all 250ms ease-in-out;
+}
+
+.basket_model.active .basket_items{
+  width: 450px;
+}
+
+.filter .active{
+  color: red;
+  font-size: 20px;
+  font-weight: bolder;
+  list-style-type: disc;
+}
+
+
+
+
+.basket_items .fa-times{
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  font-size: 2rem;
+  color: black;
+  cursor: pointer;
+}
+
+.basket_items .fa-times:hover{
+  color: red;
+}
+
+.basket_title{
+  color: black;
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.basket_list{
+  list-style-type: none;
+  padding: 0 5px;
+  margin-top: 3rem;
+  max-height: 650px;
+  overflow-y: auto;
+  padding-bottom: 2rem;
+}
+.basket_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.btn_odeme{
+  cursor: pointer;
+  border: 2px solid purple;
+  color: purple;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  transition: all 250ms ease-in-out;
+}
+
+
+
+.btn_odeme:hover{
+  background-color: purple;
+  color: white;
+}
+
+.basket_item-info{
+  width: 250px;
+}
+
+.basket_item-info .thsirt_name{
+  font-size: 16px;
+  font-weight: bold;
+}
+.basket_item-info .thsirt_ucreti{
+  font-size: 16px;
+}
+.basket_item-info .thsirt_remove{
+  font-size: 16px;
+  color: gray;
+}
+
+.basket_item-info .thsirt_remove:hover{
+  color: red;
+}
+
+
+.basket_item .thsirt_count{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}
+
+.thsirt_count .increase,.decrease{
+  cursor: pointer;
+  color: purple;
+}
+
+.thsirt_count .increase{
+  margin-left: 5px;
+}
+.thsirt_count .decrease{
+  margin-right: 5px;
+}
+
+.basket_total{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 3rem;
+  align-items: center;
+  width: inherit;
+}
+
+.basket_total button{
+  width: 250px;
+}
+
+.fw-bold{
+  font-weight: bold
+}
+
+.total_price:empty + .btn_odeme{
+  display: none;
+}
